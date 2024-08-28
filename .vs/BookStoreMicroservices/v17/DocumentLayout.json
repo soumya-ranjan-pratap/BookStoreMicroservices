@@ -1,12 +1,102 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\BookStoreMicroservices\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD8B32E-9223-4F66-AF5A-1C88B3CB0E77}|BookService\\BookService.csproj|d:\\bookstoremicroservices\\bookservice\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD8B32E-9223-4F66-AF5A-1C88B3CB0E77}|BookService\\BookService.csproj|solutionrelative:bookservice\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD8B32E-9223-4F66-AF5A-1C88B3CB0E77}|BookService\\BookService.csproj|d:\\bookstoremicroservices\\bookservice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD8B32E-9223-4F66-AF5A-1C88B3CB0E77}|BookService\\BookService.csproj|solutionrelative:bookservice\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD8B32E-9223-4F66-AF5A-1C88B3CB0E77}|BookService\\BookService.csproj|d:\\bookstoremicroservices\\bookservice\\models\\addbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD8B32E-9223-4F66-AF5A-1C88B3CB0E77}|BookService\\BookService.csproj|solutionrelative:bookservice\\models\\addbooks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD8B32E-9223-4F66-AF5A-1C88B3CB0E77}|BookService\\BookService.csproj|d:\\bookstoremicroservices\\bookservice\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD8B32E-9223-4F66-AF5A-1C88B3CB0E77}|BookService\\BookService.csproj|solutionrelative:bookservice\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD8B32E-9223-4F66-AF5A-1C88B3CB0E77}|BookService\\BookService.csproj|d:\\bookstoremicroservices\\bookservice\\bookservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2CD8B32E-9223-4F66-AF5A-1C88B3CB0E77}|BookService\\BookService.csproj|solutionrelative:bookservice\\bookservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddBooks.cs",
+              "DocumentMoniker": "D:\\BookStoreMicroservices\\BookService\\Models\\AddBooks.cs",
+              "RelativeDocumentMoniker": "BookService\\Models\\AddBooks.cs",
+              "ToolTip": "D:\\BookStoreMicroservices\\BookService\\Models\\AddBooks.cs",
+              "RelativeToolTip": "BookService\\Models\\AddBooks.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T16:08:23.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\BookStoreMicroservices\\BookService\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BookService\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\BookStoreMicroservices\\BookService\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BookService\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T15:20:45.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookService.csproj",
+              "DocumentMoniker": "D:\\BookStoreMicroservices\\BookService\\BookService.csproj",
+              "RelativeDocumentMoniker": "BookService\\BookService.csproj",
+              "ToolTip": "D:\\BookStoreMicroservices\\BookService\\BookService.csproj",
+              "RelativeToolTip": "BookService\\BookService.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-27T15:15:54.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\BookStoreMicroservices\\BookService\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "BookService\\Controllers\\BookController.cs",
+              "ToolTip": "D:\\BookStoreMicroservices\\BookService\\Controllers\\BookController.cs",
+              "RelativeToolTip": "BookService\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T14:00:03.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\BookStoreMicroservices\\BookService\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "BookService\\Models\\Book.cs",
+              "ToolTip": "D:\\BookStoreMicroservices\\BookService\\Models\\Book.cs",
+              "RelativeToolTip": "BookService\\Models\\Book.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T13:57:39.041Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
