@@ -866,6 +866,24 @@
             "rid": "win"
           }
         }
+      },
+      "OrderService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
+          "Swashbuckle.AspNetCore": "6.5.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderService.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -2423,6 +2441,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "OrderService/1.0.0": {
+      "type": "project",
+      "path": "../OrderService/OrderService.csproj",
+      "msbuildProject": "../OrderService/OrderService.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2430,6 +2453,7 @@
       "Microsoft.EntityFrameworkCore >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0",
+      "OrderService >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -2465,7 +2489,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\BookStoreMicroservices\\OrderService\\OrderService.csproj": {
+              "projectPath": "D:\\BookStoreMicroservices\\OrderService\\OrderService.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
