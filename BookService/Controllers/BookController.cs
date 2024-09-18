@@ -17,7 +17,7 @@ namespace BookService.Controllers
         }
 
         [HttpGet]
-        public ActionResult <IEnumerable<Book>> GetBooks()
+        public ActionResult<IEnumerable<Book>> GetBooks()
         {
             return Ok(dbContext.Books.ToList());
         }
@@ -49,8 +49,41 @@ namespace BookService.Controllers
         }
 
         [HttpPut("{Title}")]
-        public ActionResult UpdateBook(AddBooks book)
+        public ActionResult UpdateBook(string Title, AddBooks book)
         {
+            if (Title != book.Title)
+            {
+                return BadRequest();
+            }
+            var ubook = dbContext.Books.FirstOrDefault(x => x.Title == Title);
+            if (ubook != null)
+            {
+                ubook.Title = book.Title;
+                ubook.AuthorName = book.AuthorName;
+                dbContext.SaveChanges();
+            }
+            else
+            {
+                return NotFound();
+            }
+            return NoContent();
+        }
+
+        [HttpDelete("{Title}")]
+        public ActionResult DeleteBook(string Title)
+        {
+            var delBook = dbContext.Books.FirstOrDefault(x=>x.Title == Title);
+            if(delBook != null)
+            {
+                dbContext.Books.Remove(delBook);
+                dbContext.SaveChanges();
+            }
+            else
+            {
+                return NotFound();
+            }
+
+            return NoContent();
         }
     }
 }
